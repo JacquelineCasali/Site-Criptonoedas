@@ -4,7 +4,7 @@ Este Projeto é uma de pagina  visualização de crypo moeda onde os valores sã
 
 # imagem do Projeto 
  <p align="center">
-  <img src="./src/assets/2023-08-01_144058.png" width="600px">
+  <img src="./site/src/assets/2023-08-01_144058.png" width="600px">
 </p>
 
 ## Instalação e Rodar o Projeto
