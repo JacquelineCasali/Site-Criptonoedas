@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './Featured.css'
+import "../styles/Featured.css"
 
 // inportando icones 
 import {FiArrowUpRight, FiArrowDown} from "react-icons/fi"
@@ -60,15 +60,12 @@ Veja todos os ativos disponíveis: Criptomoedas e NFT's</p>
     </span>
 )} 
            </div>     
-
-
-
               <div className='card'>
                         <div className='top'>
                    
                          <img src={data[1].image} alt='' />
                         </div>
-            
+         
 <div>
     <h5>{data[1].name}</h5>
     <p>${data[1].current_price.toLocaleString()}</p>
@@ -192,4 +189,3 @@ Veja todos os ativos disponíveis: Criptomoedas e NFT's</p>
 
   )
 }
-

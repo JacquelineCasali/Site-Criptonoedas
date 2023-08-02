@@ -1,6 +1,7 @@
 import React , {useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
-import "./Navbar.css"
+import { Link } from 'react-router-dom'
+import "../styles/Hearder.css"
 
 export default function Navbar() {
 // menu
@@ -28,7 +29,11 @@ const handerClick=()=>setClick(!click)
                 Contato</a></li>
         </ul>
  <div className='btn-group'>
-    <button className='btn'>Conectar Carteira</button>
+    <button className='btn'  href="/login" >
+    <Link  to="/login" >  Conectar Carteira
+     </Link>
+
+     </button>
  </div>
 {/* botao responsivo */}
 <div className='hamburger' onClick={handerClick}>

@@ -1,0 +1,45 @@
+{
+  "cadastros": [
+    {
+      "id": 1,
+      "nome": "Jose",
+      "email": "pedro@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "nome": "Paulo",
+      "email": "123o@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 3,
+      "nome": "Tomaz",
+      "email": "test@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 4,
+      "nome": "Jamil",
+      "email": "jamil@gmail.com",
+      "password": "1234"
+    }
+   
+  ],
+  "cripto": [
+    {
+      "id": 1,
+      "Crypto": "Bitcoin BTC",
+      "price": "25.499,52",
+      "Change": "+5,65%",
+      "avatar": "image6.svg"
+    },
+    {
+      "id": 2,
+      "Crypto": "Ethereum ETH",
+      "price": "15.499,52",
+      "Change": "-5,65%",
+      "avatar": "Union.png"
+    }
+  ]
+}
