@@ -29,7 +29,7 @@ const handerClick=()=>setClick(!click)
         </ul>
  <div className='btn-group'>
     <button className='btn' >
-    <Link  to="/login" >  Conectar Carteira
+    <Link  to="/" >  Sair da Carteira
      </Link>
 
      </button>

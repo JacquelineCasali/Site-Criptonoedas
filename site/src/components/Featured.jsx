@@ -4,6 +4,8 @@ import "../styles/Featured.css"
 // inportando icones 
 import {FiArrowUpRight, FiArrowDown} from "react-icons/fi"
 import axios from 'axios'
+import { Link } from 'react-router-dom'
+
 export default function Featured() {
 
 // conectando a api 
@@ -31,7 +33,11 @@ if(!data) return null
         </h2>
                     <p>
 Veja todos os ativos disponíveis: Criptomoedas e NFT's</p>
-                    <button className='btn'>Ver mais moedas</button>
+                    <button className='btn'>
+                    <Link  to="/moedas" > Ver mais moedas
+     </Link>
+
+                        </button>
                  
               </div>
               {/* lado dite */}

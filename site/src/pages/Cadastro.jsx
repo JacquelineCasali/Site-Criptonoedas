@@ -101,7 +101,7 @@ export default function Cadastro() {
         {/* lado esquerdo site */}
    
       <div className='center'style={{margin:' 24px 0 0 0 '}}>
-      <Link className='icone' to={'/'} >   
+      <Link className='icone-x' to={'/'} >   
        <img  src={icone}  alt="Logo"/></Link>
     
       
@@ -110,7 +110,7 @@ export default function Cadastro() {
        <form onSubmit={handleSubmit} >
        <div className="form-group">
 
-       <input  
+       <input className='input'
           type="text"
           placeholder="Nome "
           name="name"
@@ -142,7 +142,7 @@ export default function Cadastro() {
         />
                            </div>
                                          
-                    <button  className="btn-login-cadastro">Login</button>
+                    <button  className="btn-login-cadastro">Cadastrar</button>
                 </form>
    
     <Link  className="senha"  to={'/login'} >

@@ -1,3 +1,4 @@
+
 .login .container {
     display: flex;
     grid-template-columns: repeat(2, 1fr);
@@ -10,8 +11,8 @@
 
 .login {
     background-color:#5D6670 ; 
-    opacity: 70%;
-    
+   opacity: 70%;
+   
   } 
 /* imagem do fundo  */
   .login::before{
@@ -43,7 +44,7 @@ margin: 95px 0 ;
 box-shadow:  0 0 6px 0 rgba(0, 0, 0, 0.5);
 }
 
-.icone{
+.icone-x{
  text-align: right;
  margin-right: 10px;
 }
@@ -88,9 +89,6 @@ box-shadow:  0 0 6px 0 rgba(0, 0, 0, 0.5);
     color: black;
   
   }
-  
-
-
 
 strong{
     margin-left: 5px;
@@ -101,4 +99,9 @@ strong{
         grid-template-columns: 1fr;
         margin: 1rem 0;
     }
+
+    .login .center {
+margin: 160px 0 ;
+}
+
 }  

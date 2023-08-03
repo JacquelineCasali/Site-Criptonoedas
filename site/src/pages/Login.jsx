@@ -52,7 +52,7 @@ export default function Login() {
   let res =await authService.authenticate(data)
   console.log('res',res.data)
   authService.setLoggedUser(res.data)
-  navigate("/dasboard")
+  navigate("/moedas")
   
   }catch(error){
     console.log(error) }
@@ -72,7 +72,7 @@ export default function Login() {
         {/* lado esquerdo site */}
    
       <div className='center'>
-      <Link className='icone' to={'/'} >   
+      <Link className='icone-x' to={'/'} >   
        <img  src={icone}  alt="Logo"/></Link>
     
       
