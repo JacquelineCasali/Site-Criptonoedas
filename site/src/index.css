@@ -107,6 +107,7 @@ input {
   h1 {
     font-size: 1.7rem;
     line-height: 1.2;
+    margin-right: 20px;
   }
   
   h2 {
@@ -126,6 +127,7 @@ input {
   .btn {
     width: 70%;
     margin: 1rem 0;
+    padding: 10px;
   }
 
   input {

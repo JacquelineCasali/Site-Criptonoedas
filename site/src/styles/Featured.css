@@ -165,25 +165,6 @@ input {
         width: 100%;
     }
 }
-
-
-
-
-
-
-.green{
-   color: var(--primary); 
-}
-.red{
-    color: #ff0000;
-}
-
-
-
-
-
-
-
 .green{
    color: var(--primary); 
 }
